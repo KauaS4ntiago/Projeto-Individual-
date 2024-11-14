@@ -1,71 +1,69 @@
-
 public class Assinatura {
-	 	private String nomeAssinatura;
-	    private String descricaoAssinatura;
-	    private double precoAssinatura;
-	    private int qtdTelas; // Quantidade de telas simultaneamente
-	    private String conteudoAdicional; // 4k, Dolby Vision e etc...
-	    
-	    // Construtores
-	    
-	    public Assinatura(){
+    private String nomeAssinatura;
+    private String descricaoAssinatura;
+    private double precoAssinatura;
+    private int qtdTelas; // Quantidade de telas simultaneamente
+    private String conteudoAdicional; // 4k, Dolby Vision e etc...
 
-	    }
-	    
-	    public Assinatura( String nomeAssinatura){
-	        this.nomeAssinatura = nomeAssinatura;
-	    }
+    // Construtores
 
-	    
-	    public Assinatura( String nomeAssinatura, String descricaoAssinatura, double precoAssinatura, int qtdTelas, String conteudoAdicional){
-	        this.nomeAssinatura = nomeAssinatura;
-	        this.descricaoAssinatura = descricaoAssinatura;
-	        this.precoAssinatura = precoAssinatura;
-	        this.qtdTelas = qtdTelas;
-	        this.conteudoAdicional = conteudoAdicional;
-	    }
-	    
-	    //getters e setters
-	    
-	    public void setNomeDaAssinatura(String nomeAssinatura){
-	        this.nomeAssinatura = nomeAssinatura;
-	    }
+    public Assinatura(){
 
-	    public String getNomedaAssinatura(){
-	        return this.nomeAssinatura;
-	    }
+    }
 
-	    public void setDescricaoDaAssinatura(String descricaoAssinatura){
-	        this.descricaoAssinatura = descricaoAssinatura;
-	    }
+    public Assinatura( String nomeAssinatura){
+        this.nomeAssinatura = nomeAssinatura;
+    }
 
-	    public String getDescricaoDaAssinatura(){
-	        return this.descricaoAssinatura;
-	    }
 
-	    public void setPrecoAssinatura(double precoAssinatura){
-	        this.precoAssinatura = precoAssinatura;
-	    }
+    public Assinatura( String nomeAssinatura, String descricaoAssinatura, double precoAssinatura, int qtdTelas, String conteudoAdicional){
+        this.nomeAssinatura = nomeAssinatura;
+        this.descricaoAssinatura = descricaoAssinatura;
+        this.precoAssinatura = precoAssinatura;
+        this.qtdTelas = qtdTelas;
+        this.conteudoAdicional = conteudoAdicional;
+    }
 
-	    public double getPrecoAssinatura(){
-	        return this.precoAssinatura;
-	    }
+    //getters e setters
 
-	    public void setQtdTelas(int qtdTelas){
-	        this.qtdTelas = qtdTelas;
-	    }
+    public void setNomeDaAssinatura(String nomeAssinatura){
+        this.nomeAssinatura = nomeAssinatura;
+    }
 
-	    public int getQtdTelas(){
-	        return this.qtdTelas;
-	    }
+    public String getNomedaAssinatura(){
+        return this.nomeAssinatura;
+    }
 
-	    public void setConteudoAdicional(String conteudoAdicional){
-	        this.conteudoAdicional = conteudoAdicional;
-	    }
+    public void setDescricaoDaAssinatura(String descricaoAssinatura){
+        this.descricaoAssinatura = descricaoAssinatura;
+    }
 
-	    public String getConteudoAdicional(){
-	        return this.conteudoAdicional;
-	    }
+    public String getDescricaoDaAssinatura(){
+        return this.descricaoAssinatura;
+    }
 
-	}
+    public void setPrecoAssinatura(double precoAssinatura){
+        this.precoAssinatura = precoAssinatura;
+    }
 
+    public double getPrecoAssinatura(){
+        return this.precoAssinatura;
+    }
+
+    public void setQtdTelas(int qtdTelas){
+        this.qtdTelas = qtdTelas;
+    }
+
+    public int getQtdTelas(){
+        return this.qtdTelas;
+    }
+
+    public void setConteudoAdicional(String conteudoAdicional){
+        this.conteudoAdicional = conteudoAdicional;
+    }
+
+    public String getConteudoAdicional(){
+        return this.conteudoAdicional;
+    }
+
+}
