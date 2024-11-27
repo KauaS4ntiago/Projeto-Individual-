@@ -1,4 +1,5 @@
 public interface Ilogin {
-void setSenha(String senha);
-void setNomeDeUsuario(String nomeDeUsuario);
+
+	boolean autenticao(String nomeDeUsuario, String senha);
 }
+
